@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --primary-color: #F7F7F8;
+    --secund-color: #adadad; 
+    --third-color: #54B5FE;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+label{
+    font-size: 1.2rem;
+}

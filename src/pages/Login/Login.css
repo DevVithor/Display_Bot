@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.conteiner{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-image: url('../../assets/fundo azul.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.conteiner__login{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conteiner__password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
+    font-size: 1em;
+    color: var(--secund-color);
+}
+
+a{
+    color: var(--secund-color);
+}
+
+
+
+

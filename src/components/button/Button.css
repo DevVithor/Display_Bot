@@ -1,0 +1,12 @@
+button{
+    border-radius: 40px;
+    border: none;
+    width: 150px;
+    padding: 15px;
+    background-color: var(--primary-color);
+}
+
+button:hover{
+    text-decoration-line: underline;
+    background-color: var(--secund-color);
+}

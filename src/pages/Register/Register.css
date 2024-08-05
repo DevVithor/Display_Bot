@@ -1,0 +1,10 @@
+form{
+    display: flex;
+}
+
+.conteiner__register{
+    display: grid;
+    grid-template-columns: 100px 290px;
+    padding: 5% 0 5% 0;
+    gap: 1rem;
+}
