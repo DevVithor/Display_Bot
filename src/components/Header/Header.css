@@ -1,0 +1,17 @@
+header{
+ position: sticky;
+ padding: 1rem;
+ background-color: var(--third-color);
+ justify-content: space-between;
+ align-items: center;
+ display: flex;
+}
+
+.logo{
+font-size: 2.25rem;
+color: var(--primary-color);
+}
+
+.icon {
+ font-size: 1.25rem;
+}
