@@ -1,0 +1,10 @@
+.section {
+ justify-content: center;
+ display: flex;
+ text-align: center;
+ color: var(--primary-color);
+ background-color: var(--third-color);
+ backdrop-filter: blur(10px);
+ border-radius: 5px;
+ padding: 10px;
+}
