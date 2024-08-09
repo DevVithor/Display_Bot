@@ -3,16 +3,42 @@
     padding: 0%;
 }
 
-.conteiner{
-    align-items: center;
-    justify-content: center;
+.conteiner {
     display: flex;
     height: 100vh;
-    background-image: url('../../assets/fundo azul.jpg');
-    background-position: center;
-    background-size: cover;
-    
+    background-image: linear-gradient(to left, var(--primary-color) 0, var(--primary-color) 50%, var(--third-color) 50%);
 }
+
+.conteiner__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.conteiner__logo{
+    margin: 10px;
+    height: 50px;
+    position: fixed;
+}
+
+.conteiner__text{
+    width: 500px;
+    color: var(--primary-color);
+}
+
+.conteiner__text h3 {
+    color: var(--secund-color);
+}
+
+.conteiner__login__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
 
 .conteiner__login{
     justify-content: center;
@@ -22,11 +48,11 @@
     width: 400px;
     text-align: center;
     color: var(--primary-color);
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: var(--third-color);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 40px;
-}
+} 
 
 form{
     display: flex;
@@ -37,12 +63,13 @@ form{
 
 .conteiner__password {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 10px;
-    font-size: 1em;
+    gap: 3rem;
+    padding: 0 0 10% 0;
     color: var(--secund-color);
+}
+
+.conteiner__login__size button {
+    width: 150px;
 }
 
 a{
