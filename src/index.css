@@ -4,9 +4,10 @@
 }
 
 :root{
-    --primary-color: #F7F7F8;
-    --secund-color: #adadad; 
-    --third-color: #54B5FE;
+    --primary-color: #ffffff;
+    --secund-color: #d4d4d4; 
+    --third-color: #162c38;
+    --fourth-color: #687e8a;
 }
 
 h1{
